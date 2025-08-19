@@ -79,7 +79,7 @@ cycleNode3.next = cycleNode2;
 /* Our list now looks like this:
    1->2->3->2->3->2 ... etc.  
 */
-hasCycle(node1) // Output: true
+hasCycle(cycleNode1) // Output: true
 ```
 
 ### Solution 1 - Use Hashing
